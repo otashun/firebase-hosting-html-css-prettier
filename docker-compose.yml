@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  app:
+    build:
+      context: .
+    ports:
+      - "5000:5000"
+      - "9005:9005"
+    tty: true
+    volumes:
+      - .:/app:delegated
+    restart: always

@@ -1,0 +1,12 @@
+{
+  "name": "firebase-hosting-html-css-prettier",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "lint": "prettier --check .",
+    "fix": "prettier --write ."
+  },
+  "devDependencies": {
+    "prettier": "2.3.2"
+  }
+}
