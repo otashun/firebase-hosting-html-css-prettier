@@ -10,4 +10,7 @@ services:
     tty: true
     volumes:
       - .:/app:delegated
+      - node_modules:/app/node_modules:delegated
     restart: always
+volumes:
+  node_modules: {}

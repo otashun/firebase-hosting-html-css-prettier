@@ -15,7 +15,6 @@ Edit [.firebaserc](https://github.com/otashun/firebase-hosting-html-css-prettier
 
 ```bash
 docker-compose up -d && docker-compose exec app bash
-npm install
 firebase login
 firebase emulators:start
 ```
